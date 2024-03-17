@@ -1,0 +1,47 @@
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build
+build/
+dist/
+out/
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE and Editor Specific
+# (Adjust based on your IDE/editor)
+.vscode/
+.idea/
+.sublime-*
+.eslintcache
+
+# Environment Specific (Adjust based on your needs)
+.env
+.env.development
+.env.test
+.env.production
+
+# Express.js
+# (Optional, if using additional middleware or custom configurations)
+routes/public/  # Ignore a public directory within the routes folder (adjust as needed)
+
+# Temporary Files
+*.log  # Exclude all log files
+.tmp/  # Ignore a temporary folder (adjust as needed)
+
+# OS Specific
+Thumbs.db  # Windows thumbnail database
+DS_Store  # macOS desktop file
+
+# Potential Additional Ignores (Consider based on your project)
+yarn.lock  # Yarn lock file (if using Yarn)
+package-lock.json  # npm package-lock (if using npm
